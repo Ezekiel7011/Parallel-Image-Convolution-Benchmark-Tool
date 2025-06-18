@@ -58,7 +58,7 @@ Make sure your OpenCV include/lib paths are properly configured.
 
 ---
 
-## 📊 False Sharing Detection
+## False Sharing Detection
 
 When padding is disabled, false sharing is tracked by monitoring ownership of 64-byte cache lines using `std::atomic<int>`. If thread ownership switches, it's counted as a false sharing event.
 
